@@ -4,7 +4,7 @@ using namespace std;
 int main() {
 
     vector<string> strs = {"flower", "flow", "flight"};
-
+    // cout<<strs.size();
     // agar array empty ho
     if (strs.size() == 0) {
         cout << "";
@@ -24,7 +24,7 @@ int main() {
                && prefix[j] == strs[i][j]) {
             j++;
         }
-
+        // cout<<prefix.substr(0,j);
         // sirf matching part hi rakho
         prefix = prefix.substr(0, j);
 
