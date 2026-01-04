@@ -1,3 +1,38 @@
+// #include <iostream>
+// #include <vector>
+// #include <algorithm>
+// using namespace std;
+
+// int solve(vector<int>& num) {
+//     sort(num.begin(), num.end());
+
+//     int expected = 1;
+
+//     for (int x : num) {
+//         if (x < expected) continue;
+//         if (x == expected) expected++;
+//         else break;
+//     }
+//     return expected;
+// }
+
+// int main() {
+//     vector<int> nums = {0, 2, 4, 8, 9, 111};
+//     cout << solve(nums) << endl;
+//     return 0;
+// }
+
+
+
+
+
+
+
+
+
+
+
+
 #include<iostream>
 using namespace std;
 
