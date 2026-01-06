@@ -3,7 +3,7 @@ using namespace std;
 
 int main(){
 
-    vector<int>g = {2,3};
+    vector<int>g = {2,4};
     vector<int>s = {1,3,3};
 
     sort(g.begin(),g.end());

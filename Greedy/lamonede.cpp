@@ -2,7 +2,7 @@
 using namespace std;
 
 int main(){
-    vector<int>bills = {5,5,5,10,20,20};
+    vector<int>bills = {5,5,5,10,20,5,10,5,20,5};
     int f=0;
     int t=0;
     int tt=0;
@@ -11,7 +11,7 @@ int main(){
             f++;
         }
         else if(bills[i]==10){
-            if(f>=0){
+            if(f>0){
                 f--;
                 t++;
             }
@@ -25,7 +25,7 @@ int main(){
                 f--;
                 t--;
             }
-            else if(f>3){
+            else if(f>=3){
                 f = f-3;
             }
             else{
