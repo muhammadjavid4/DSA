@@ -2,7 +2,7 @@
 using namespace std;
 
 int main(){
-    vector<int>processes = {4,3,7,1,2};//burst times//2,3,4,6,7,8
+    vector<int>processes = {2,3,4,6,7,8};//burst times//2,3,4,6,7,8
     sort(processes.begin(),processes.end());    
     int totalwaitingtime = 0;
     int n = processes.size();
