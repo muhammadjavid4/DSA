@@ -21,14 +21,14 @@ int main(){
     vector<int>slot(maxdeadline,-1);
     int totalProfit = 0;
     for (int k = 0; k < n; k++) {
-    int i = idx[k];
-    for (int j = deadline[i] - 1; j >= 0; j--) {
-        if (slot[j] == -1) {
-            slot[j] = i;
-            totalProfit += profit[i];
-            break;
-        }
-      }
+         int i = idx[k];
+         for (int j = deadline[i] - 1; j >= 0; j--) {
+           if (slot[j] == -1) {
+              slot[j] = i;
+              totalProfit += profit[i];
+              break;
+           }
+         }
    }
 
    cout<<totalProfit<<endl;
